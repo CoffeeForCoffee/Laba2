@@ -24,3 +24,10 @@ def find_snils_in_file(filename):
 
 found_snils = find_snils_in_file(filename)
 print("Найденные СНИЛС:", found_snils)
+
+# Пользовательский ввод
+user_input = input("Введите СНИЛС (формат XXX-XXX-XXX XX): ")
+if is_valid_snils(user_input):
+    print("Это корректный СНИЛС.")
+else:
+    print("Это не СНИЛС.")
