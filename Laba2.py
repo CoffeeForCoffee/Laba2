@@ -1,5 +1,4 @@
 import re
-import unittest
 
 """СНИЛС ВИДА XXX-XXX-XXX XX"""
 
@@ -26,8 +25,8 @@ found_snils = find_snils_in_file(filename)
 print("Найденные СНИЛС:", found_snils)
 
 # Пользовательский ввод
-user_input = input("Введите СНИЛС (формат XXX-XXX-XXX XX): ")
+"""user_input = input("Введите СНИЛС (формат XXX-XXX-XXX XX): ")
 if is_valid_snils(user_input):
     print("Это корректный СНИЛС.")
 else:
-    print("Это не СНИЛС.")
+    print("Это не СНИЛС.")"""
