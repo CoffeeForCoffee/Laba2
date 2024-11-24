@@ -1,7 +1,7 @@
 import unittest
 from Laba2 import is_valid_snils
 
-# Правильный ли снилс или нет
+# Тестирование
 class TestSnilsFunctions(unittest.TestCase):
 
     # Тесты на правильный снилс
