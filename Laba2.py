@@ -21,12 +21,13 @@ def find_snils_in_file(filename):
                 snils_list.append(line)
     return snils_list
 
-found_snils = find_snils_in_file(filename)
-print("Найденные СНИЛС:", found_snils)
+if __name__ == "__main__":
+    found_snils = find_snils_in_file(filename)
+    print("Найденные СНИЛС:", found_snils)
 
-# Пользовательский ввод
-user_input = input("Введите СНИЛС (формат XXX-XXX-XXX XX): ")
-if is_valid_snils(user_input):
-    print("Это корректный СНИЛС.")
-else:
-    print("Это не СНИЛС.")
+    # Пользовательский ввод
+    user_input = input("Введите СНИЛС (формат XXX-XXX-XXX XX): ")
+    if is_valid_snils(user_input):
+        print("Это корректный СНИЛС.")
+    else:
+        print("Это не СНИЛС.")

@@ -4,7 +4,6 @@ from Laba2 import is_valid_snils, find_snils_in_file
 
 # Тестирование
 class TestSnilsFunctions(unittest.TestCase):
-
     # Тесты на правильный снилс
     def test_valid_snils(self):
         self.assertTrue(is_valid_snils("123-456-789 01"))
